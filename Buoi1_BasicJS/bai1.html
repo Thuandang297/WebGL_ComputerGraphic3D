@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kiểm tra 18+</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	Nhập tên<input type="text" name="ten">
+	Nhập tuôi<input type="number" name="tuoi" id="tuoi">
+	<input type="button" name="kiemtra" Onclick="ktTuoi()" value="Check">
+	<script type="text/javascript">
+		function ktTuoi()
+		{
+			var  tuoi=document.getElementById("tuoi").value;
+			tuoi.innerHTML;
+	
+			if(tuoi>=18)
+			{
+				alert("Tuoi hop le");
+
+			}
+			else
+			{
+				alert("Tuoi khong hop le");
+			}
+		}
+	</script>
+
+</body>
+</html>
